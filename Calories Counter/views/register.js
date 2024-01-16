@@ -15,7 +15,6 @@ document.getElementById('registrationForm').addEventListener('submit', function 
 });
 
 function isValidEmail(email) {
-    // Simple email validation regex (you might want to use a more robust solution)
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
 }
