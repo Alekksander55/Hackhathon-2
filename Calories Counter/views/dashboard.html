@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container mt-4">
+   
+    <section class="background-custom overflow-hidden">
+        <style>
+          .background-custom {
+            background-image: url('https://cdn.pixabay.com/photo/2017/02/27/21/47/yogurt-2104327_1280.jpg');
+            
+          }
+          .bg-custom{
+            background-color: hsla(257, 29%, 76%, 0.8) !important;
+            backdrop-filter: saturate(200%) blur(1px);
+          }
+          .bg-glass {
+            background-color: hsla(257, 9%, 52%, 0.9) !important;
+            backdrop-filter: saturate(200%) blur(25px);
+          }
+        </style>
+      
+        <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+          <div class="row gx-lg-5 align-items-center mb-5">
+            <div class="col-lg-6 mb-5 mb-lg-0 bg-custom" style="z-index: 10">
+                <center><h2>Nutrient Counter</h2></center>
+                <div>
+                    <h3>For this aliment</h3>
+                    <p>Calories: <span id="calories"></span></p>
+                    <p>Protein: <span id="protein"></span></p>
+                    <p>Carbs: <span id="carbs"></span></p>
+                    <p>Fats: <span id="fats"></span></p>
+                </div>
+
+                <div>
+                    <h3>Daily Intake Information</h3>
+                    <p>Calories: <span id="daily-calories"></span></p>
+                    <p>Protein: <span id="daily-protein"></span></p>
+                    <p>Carbs: <span id="daily-carbs"></span></p>
+                    <p>Fats: <span id="daily-fats"></span></p>
+                </div>
+            
+            </div>
+      
+            <div class="col-lg-6 mb-5 mb-lg-0 position-relative">     
+              <div class="card bg-glass">
+                <div class="card-body px-4 py-5 px-md-5">
+    
+                    <div class="row">   
+                      <h1 class="mb-3 h3">What are you eating ?</h1> 
+                      <h5 class="mb-3 h5">Put your ingredient one by one and click on count</h5> 
+                      <br><br><br><br>
+                      <form id="foodForm">
+                        <center><label for="food">Your food:</label>
+                        <input type="text" id="food" name="food" required>
+                        <br><br>
+                        <label for="quantity">Quantity:</label>
+                        <input type="text" id="quantity" name="quantity" required>
+                        <br><br><br>
+                       <button type="submit" class="btn btn-primary btn-block mb-4" >Count</button> </center> 
+                    </form>
+                    </div>
+    
+
+                    
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section: Design Block -->
+        </div>
+    
+        <script src="dashboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
+    
+
+    
