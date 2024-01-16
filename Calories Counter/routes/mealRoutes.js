@@ -6,7 +6,7 @@ const userRoutes = require('./userRoutes')
 
 const router = express.Router();
 
-// Middleware function to authenticate the user based on the JWT
+// Middleware function to authenticate the user
 function authenticateToken(req, res, next) {
     // console.log(req.header)
     // const token = req.header('Authorization');
@@ -27,7 +27,6 @@ function authenticateToken(req, res, next) {
 
 // Protected dashboard route
 // router.get('/dashboard', authenticateToken, (req, res) => {
-//     // Here you can fetch and send user-specific data based on req.user
 //     res.status(200).json({ message: 'User Dashboard' });
 // });
 
