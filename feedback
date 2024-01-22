@@ -1,0 +1,14 @@
+Nutrition tracker app, where user can log daily meals, track calorie intake, and monitor macronutrients.
+
+First of all the idea of the project is really good. Its useful , practical and the ui is easy to use.
+A few points to go over:
+There is are controller and model folders but they seem to be empty and the whole querying to the database is done
+inside the routes.
+The heierarcy of these folders help maintaining cleaner and more orginised code.
+I see a jwt token created but not sent to the user.
+Other than that the login and register seem to be working well!
+Unfortunatly a video was not provided so I coulden't see the hackathon in action- 
+I would love to see it working live !
+Really good job its fantastic to see your progress in the bootcamp!!!!
+
+6/10
